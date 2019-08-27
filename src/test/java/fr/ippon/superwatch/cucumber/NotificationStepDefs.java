@@ -1,9 +1,10 @@
-package fr.ippon.superwatch;
+package fr.ippon.superwatch.cucumber;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import fr.ippon.superwatch.NotificationSender;
 import fr.ippon.superwatch.cucumber.SpringBootBaseIntegrationTest;
 import model.Manager;
 import model.SuperHero;
